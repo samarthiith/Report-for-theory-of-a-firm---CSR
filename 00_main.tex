@@ -1,0 +1,46 @@
+\RequirePackage[ngerman=ngerman-x-latest]{hyphsubst}
+\documentclass[english,BCOR=6mm,cdgeometry=no,DIV=13]{tudscrreprt}
+\TUDoptions{cdfont=no,cd=no}
+\usepackage[T1]{fontenc}
+\usepackage{selinput}\SelectInputMappings{adieresis={ä},germandbls={ß}}
+\usepackage{babel}
+\usepackage{isodate}
+\usepackage{blindtext}
+\usepackage{lmodern}
+\usepackage{cite}
+
+\begin{document}
+\faculty{Juristische Fakultät}
+\department{Fachrichtung Strafrecht}
+\institute{Institut für Kriminologie}
+\chair{Lehrstuhl für Energiewirtschaft}
+\date{18.02.2015}
+\author{Samarth Kumar}
+\title{%
+  How to eat a shark?
+  One bite at a time...
+}
+\thesis{diss}
+\graduation[Dr. ror]{------}
+\dateofbirth{2.1.1990}
+\placeofbirth{Allahabad, India}
+\defensedate{15.03.2015}
+\referee{I dont know \and I dont know}
+\maketitle[cd=true,cdfont=no]
+\TUDoption{abstract}{section,multiple}
+
+\begin{abstract}[pagestyle=empty.tudheadings]
+\blindtext
+\nextabstract[english]
+\blindtext
+\end{abstract}
+\bibliography{/11_ref/library}
+
+\include{01_motivation}
+\include{02_literature}
+
+Blablabla said Nobody ~\cite{Bahar2013}.
+
+\bibliographystyle{plain}
+
+\end{document}

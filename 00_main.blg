@@ -1,0 +1,11 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: 00_main.aux
+I couldn't open database file /11_ref/library.bib
+---line 21 of file 00_main.aux
+ : \bibdata{/11_ref/library
+ :                         }
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: 01_motivation.aux
+A level-1 auxiliary file: 02_literature.aux
+I found no database files---while reading file 00_main.aux
+I found no \bibstyle command---while reading file 00_main.aux
+(There were 3 error messages)
